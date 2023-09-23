@@ -1,13 +1,29 @@
-# Linux Programming Helper
+# Linux Helper
 
-This is a simple utility to help you create C programming files with custom libraries included. It generates a C source code file based on your input.
+## What does it do?
+It helps you create C files.
 
-## Usage
+## How do you use it?
+1. Install the application by running
+```bash
+$ chmod +x ./INSTALL.SH
+$ ./INSTALL.SH
+```
+in your terminal of choice.
+2. After, run
+```bash
+$ helper
+```
+in a terminal.
+The application will guide you through the steps.
 
-1. Clone this repository to your local machine.
+## How do you uninstall it?
+1. Prepare the uninstaller by running
+```bash
+$ chmod +x ./UNINSTALL.SH
+$ ./UNINSTALL.SH
+```
+2. Type in your password when asked to.
 
-2. Compile the program using the provided Makefile:
-
-   ```bash
-   make
-
+## What should I consider?
+- DO NOT REMOVE the first two comments.
